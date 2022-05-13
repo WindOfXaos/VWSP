@@ -2,11 +2,11 @@
 
 $sname= "localhost";
 
-$unmae= "torada";
+$unmae= "root";
 
-$password = "010101";
+$password = "";
 
-$db_name = "sqli";
+$db_name = "test";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
